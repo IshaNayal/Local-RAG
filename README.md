@@ -3,7 +3,7 @@ Prerequisites
 Python 3.11+
 Installation
 1. Clone the repository:
-git clone https://github.com/ThomasJanssen-tech/Local-RAG-with-Ollama
+git clone https://github.com/IshaNayal/Local-RAG
 cd Local-RAG-With-Ollama
 2. Create a virtual environment
 python -m venv venv
@@ -13,7 +13,6 @@ venv\Scripts\Activate
 4. Install libraries
 pip install -r requirements.txt
 5. Add Bright Data API Key
-Get your $15 Bright Data credits: https://brdta.com/tomstechacademy
 Rename the .env.example file to .env
 Add your Bright Data API key
 If you want to use ChatGPT or Anthropic models, add an API key (not required for Ollama)
