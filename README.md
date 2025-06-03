@@ -24,10 +24,3 @@ Execute the following command:
 python run 1_scraping_wikipedia.py
 python run 2_chunking_embedding_ingestion.py
 streamlit run 3_chatbot.py
-Further reading
-https://www.ibm.com/think/topics/vector-embedding
-https://ollama.com/blog/embedding-models
-https://python.langchain.com/docs/integrations/vectorstores/chroma/
-https://python.langchain.com/docs/integrations/text_embedding/ollama/
-https://ollama.com/library/mxbai-embed-large
-https://ollama.com/library/qwen3
