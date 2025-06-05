@@ -1,5 +1,8 @@
 My Local RAG Chatbot Project
 
+
+https://github.com/user-attachments/assets/527c173a-1582-4058-958b-115e184751bd
+
 Project Description
 
 I built an awesome local Retrieval Augmented Generation (RAG) chatbot using Python, Olama, Langchain, Streamlit, and Chroma DB! This project came from my realization that standalone large language models (LLMs) have limits—they can give wrong or unsourced answers since their training data isn’t fully controllable. My RAG chatbot fixes that by delivering accurate, sourced responses, and I’m excited to share how it works!
@@ -113,5 +116,4 @@ Key Takeaways
 ✅ Fixing LLMs: My RAG system beats LLM issues like wrong facts, giving reliable, sourced answers for real use.
 
 
-https://github.com/user-attachments/assets/527c173a-1582-4058-958b-115e184751bd
 
