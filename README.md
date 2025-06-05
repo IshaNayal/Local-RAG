@@ -111,3 +111,7 @@ Key Takeaways
 
 
 ✅ Fixing LLMs: My RAG system beats LLM issues like wrong facts, giving reliable, sourced answers for real use.
+
+
+https://github.com/user-attachments/assets/527c173a-1582-4058-958b-115e184751bd
+
