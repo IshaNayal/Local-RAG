@@ -31,7 +31,7 @@ Embedding Generation: Each chunk turns into a numerical embedding.
 
 Data Ingestion: Chunks and embeddings go into Chroma DB, my local vector store.
 
-I cloned a GitHub repo with three key scripts:
+
 
 
 
