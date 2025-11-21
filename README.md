@@ -73,20 +73,15 @@ Highlights
 
 
 
-🛠️ Easy Setup: Cloned the repo, set up a virtual env, installed dependencies, and configured the .env file.
 
 
-
-🌐 Custom Topics: I edit keywords.txt to pick topics like Python, tailoring my chatbot without code changes.
+🌐 Custom Topics: I edited keywords.txt to pick topics like Python, tailoring my chatbot without code changes.
 
 
 
 ✅ Sourced Answers: My demo shows accurate replies with sources, fixing LLM flaws.
 
 Key Takeaways
-
-
-
 
 
 🧠 Better Chats with Agentic RAG: I see why naive RAG struggles—Agentic RAG uses chat history for relevant, flowing responses.
