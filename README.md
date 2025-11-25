@@ -5,7 +5,7 @@ https://github.com/user-attachments/assets/527c173a-1582-4058-958b-115e184751bd
 
 Project Description
 
-I built an awesome local Retrieval Augmented Generation (RAG) chatbot using Python, Olama, Langchain, Streamlit, and Chroma DB! This project came from my realization that standalone large language models (LLMs) have limits—they can give wrong or unsourced answers since their training data isn’t fully controllable. My RAG chatbot fixes that by delivering accurate, sourced responses, and I’m excited to share how it works!
+I built an awesome local Retrieval Augmented Generation (RAG) chatbot using Python, Olama, Langchain, Streamlit, and FAISS DB! This project came from my realization that standalone large language models (LLMs) have limits—they can give wrong or unsourced answers since their training data isn’t fully controllable. My RAG chatbot fixes that by delivering accurate, sourced responses, and I’m excited to share how it works!
 
 The star of this project is the "Agentic RAG" approach, which I found to be a huge step up from basic "naive RAG." Naive RAG struggles with follow-up questions because the database doesn’t track the conversation, but my Agentic RAG uses an agent to rewrite queries based on chat history. This keeps everything contextual and the answers spot-on, even as the convo flows!
 
@@ -29,7 +29,7 @@ Embedding Generation: Each chunk turns into a numerical embedding.
 
 
 
-Data Ingestion: Chunks and embeddings go into Chroma DB, my local vector store.
+Data Ingestion: Chunks and embeddings go into FAISS DB, my local vector store.
 
 
 
@@ -45,7 +45,7 @@ two_chunking_embedding_ingestion.py: Fetches scraped data, chunks it, creates em
 
 
 
-three_chatbot.py: Launches a Streamlit interface, tying the LLM, retrieval from Chroma DB, and agentic logic for accurate, sourced replies.
+three_chatbot.py: Launches a Streamlit interface, tying the LLM, retrieval from FAISS DB, and agentic logic for accurate, sourced replies.
 
 To get it running, I set up a virtual environment, installed dependencies from requirements.txt, and tweaked an .env file with my models and Bright Data API key. I love how I can swap in other LLM providers like OpenAI or Anthropic just by updating the .env!
 
